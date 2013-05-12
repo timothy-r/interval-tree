@@ -1,17 +1,8 @@
-/**
- */
-class Node
-{
-    protected:
-        Node *left, *right;
-        int value;
-    
-    public:
-        Node(int value);
-        void setLeft(Node *n);
-        void setRight(Node *n);
-};
+#include "node.h"
 
+/**
+ * Node class definition
+ */
 Node::Node(int v)
 {
     value = v;
@@ -26,5 +17,4 @@ void Node::setRight(Node *n)
 {
     right = n;
 }
-
 
