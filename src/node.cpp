@@ -18,3 +18,7 @@ void Node::setRight(Node *n)
     right = n;
 }
 
+int Node::getValue()
+{
+    return value;
+}
