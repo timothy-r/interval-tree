@@ -1,4 +1,6 @@
 #include "node.cpp"
+#include <iostream>
+using namespace std;
 
 int main()
 {
@@ -8,5 +10,6 @@ int main()
 
     n.setLeft(&l);
     n.setRight(&r);
+    cout << n.getValue() << endl;
     return 0;
 }

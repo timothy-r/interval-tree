@@ -11,5 +11,7 @@ class Node
         Node(int value);
         void setLeft(Node *n);
         void setRight(Node *n);
+
+        int getValue();
 };
 
