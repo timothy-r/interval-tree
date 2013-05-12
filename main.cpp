@@ -1,4 +1,4 @@
-#include "node.cpp"
+#include "src/node.cpp"
 
 int main()
 {
