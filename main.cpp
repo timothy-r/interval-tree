@@ -11,5 +11,6 @@ int main()
     n.setLeft(&l);
     n.setRight(&r);
     cout << n.getValue() << endl;
+    cout << n.getLeft()->getValue() << endl;
     return 0;
 }

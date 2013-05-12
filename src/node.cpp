@@ -22,3 +22,8 @@ int Node::getValue()
 {
     return value;
 }
+
+Node* Node::getLeft()
+{
+    return left;
+}
