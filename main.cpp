@@ -2,7 +2,8 @@
 
 int main()
 {
-    Node n = Node();
-
+    Node n,l,r;
+    n.setLeft(&l);
+    n.setRight(&r);
     return 0;
 }
