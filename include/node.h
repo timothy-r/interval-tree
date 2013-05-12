@@ -14,5 +14,6 @@ class Node
 
         int getValue();
         Node* getLeft();
+        Node* getRight();
 };
 

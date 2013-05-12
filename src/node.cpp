@@ -27,3 +27,8 @@ Node* Node::getLeft()
 {
     return left;
 }
+
+Node* Node::getRight()
+{
+    return right;
+}

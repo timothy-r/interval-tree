@@ -10,7 +10,8 @@ int main()
 
     n.setLeft(&l);
     n.setRight(&r);
-    cout << n.getValue() << endl;
-    cout << n.getLeft()->getValue() << endl;
+    cout << "Node " << n.getValue() << endl;
+    cout << "Left " << n.getLeft()->getValue() << endl;
+    cout << "Right " << n.getRight()->getValue() << endl;
     return 0;
 }
